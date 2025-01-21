@@ -1,8 +1,19 @@
-# React + Vite
+# PixaPhotos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PixaPhotos is a React-based web application built using Vite. This project allows users to explore inspiring images, save their favorite posts, and create new posts with a user-friendly interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Page**: Explore a variety of inspiring images.
+- **Favorites**: Save and view your favorite images.
+- **Create Posts**: Add new photos with titles, descriptions, and additional content.
+- **Responsive Design**: Fully optimized for both desktop and mobile devices.
+- **Dynamic Search**: Easily search for images using keywords.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast development environment for modern web applications.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **MockAPI**: Used for managing posts data.
+
