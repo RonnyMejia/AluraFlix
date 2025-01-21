@@ -1,0 +1,113 @@
+html {
+    font-size: 80%;
+}
+
+
+:root {
+    --primary-brand: #ff4500;
+    --neutral-black: #1e1e1e;
+    --neutral-gray-100: #2d2d2d;
+    --neutral-gray-90: #404040;
+    --neutral-gray-80: #5a5a5a;
+    --neutral-gray-70: #767676;
+    --neutral-gray-60: #949494;
+    --neutral-gray-50: #b2b2b2;
+    --neutral-gray-40: #cfcfcf;
+    --neutral-gray-30: #e3e3e3;
+    --neutral-gray-20: #f0f0f0;
+    --neutral-gray-10: #f7f7f7;
+    --neutral-gray-0: #ffffff;
+
+    --shade-0: hsla(0, 0%, 0%, 0.92);
+    --shade-1: hsla(0, 0%, 0%, 0.85);
+    --shade-2: hsla(0, 0%, 0%, 0.7);
+    --shade-3: hsla(0, 0%, 0%, 0.6);
+    --shade-4: hsla(0, 0%, 0%, 0.5);
+    --shade-5: hsla(0, 0%, 0%, 0.4);
+    --shade-6: hsla(0, 0%, 0%, 0.3);
+    --shade-7: hsla(0, 0%, 0%, 0.2);
+    --shade-8: hsla(0, 0%, 0%, 0.1);
+    --shade-9: hsla(0, 0%, 0%, 0.05);
+    --shade-10: hsla(0, 0%, 0%, 0.02);
+
+    --body-font: "Roboto", sans-serif;
+
+    --heading-h1: clamp(2.2rem, 4.5vw, 3.2rem);
+    --heading-h2: clamp(1.8rem, 3.5vw, 2.5rem);
+    --subtitle-h5: clamp(1.4rem, 2.5vw, 1.8rem);
+    --font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+
+    --font-weight-light: 200;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 800;
+
+    --line-height-h1: clamp(5rem, 8vw, 6.5rem);
+    --line-height-h2: clamp(3.5rem, 6vw, 4.2rem);
+    --line-height-h3: clamp(3rem, 5vw, 3.5rem);
+    --line-height-h4: clamp(2.2rem, 4vw, 2.8rem);
+    --line-height-h5: clamp(1.8rem, 3.5vw, 2.3rem);
+    --letter-spacing: clamp(1px, 0.2vw, 3px);
+
+    --spacing-2: 0.2rem;
+    --spacing-4: 0.4rem;
+    --spacing-6: 0.6rem;
+    --spacing-8: 0.8rem;
+    --spacing-10: 1rem;
+    --spacing-12: 1.2rem;
+    --spacing-16: 1.6rem;
+    --spacing-20: 2rem;
+    --spacing-24: 2.4rem;
+    --spacing-28: 2.8rem;
+    --spacing-32: 3.2rem;
+    --spacing-40: 4rem;
+    --spacing-48: 4.8rem;
+    --spacing-56: 5.6rem;
+    --spacing-64: 6.4rem;
+    --spacing-72: 7.2rem;
+    --spacing-80: 8.0rem;
+    --spacing-96: 9.6rem;
+    --spacing-120: 12rem;
+    --spacing-128: 12.8rem;
+    --spacing-160: 16rem;
+    --spacing-192: 19.2rem;
+    --spacing-256: 25.6rem;
+    --padding-border: clamp(2rem, 5vw, 4rem);
+
+    --icon-size-SM: clamp(1.4rem, 2vw, 1.8rem);
+    --icon-size-MD: clamp(1.8rem, 2.5vw, 2.2rem);
+    --icon-size-LG: clamp(2.2rem, 3vw, 2.8rem);
+    --icon-size-XL: clamp(2.8rem, 4vw, 3.6rem);
+    --image-size: clamp(22rem, 10vw, 38rem);
+
+    --border-radius-XS: .2rem;
+    --border-radius-SM: .5rem;
+    --border-radius-MD: .8rem;
+    --border-radius-LG: 1rem;
+    --border-radius-XL: 2rem;
+    --border-radius-2XL: 2.5rem;
+    --border-radius-round: 50%;
+
+    --border-weight-XS: .15rem;
+    --border-weight-SM: .3rem;
+    --border-weight-MD: .5rem;
+    --border-weight-LG: .8rem;
+    --border-weight-XL: 1rem;
+
+    --box-shadow-0: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08);
+    --box-shadow-1: 0px 2px 6px rgba(0, 0, 0, 0.15), 0px 4px 12px rgba(0, 0, 0, 0.1);
+    --box-shadow-2: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 6px 16px rgba(0, 0, 0, 0.15);
+    --box-shadow-3: 0px 6px 12px rgba(0, 0, 0, 0.3), 0px 8px 24px rgba(0, 0, 0, 0.2);
+
+    --z-index-backtap: -2;
+    --z-index-fab: 1100;
+    --z-index-tooltip: 2100;
+    --z-index-toast: 3100;
+    --z-index-dropdown: 4100;
+    --z-index-backdrop: 5100;
+    --z-index-banner: 5150;
+    --z-index-nav: 6100;
+    --z-index-modal: 7100;
+    --z-index-spinner: 8100;
+}
